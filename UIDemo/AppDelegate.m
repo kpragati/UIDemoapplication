@@ -34,6 +34,13 @@
     
     [_window makeKeyAndVisible];
     
+    //2rqwet
+    //ewgaewg
+    //efwgaewrg
+    //wrgasdgadsg
+    //
+    
+    
     return YES;
 }
 
