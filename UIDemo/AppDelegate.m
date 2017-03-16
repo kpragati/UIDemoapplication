@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "PickerViewController.h"
+#import "DateViewController.h"
+#import "TableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    _window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+   // LoginViewController *login=[[LoginViewController alloc]init];
+   // PickerViewController *picker=[[PickerViewController alloc]init];
+  // DateViewController *d=[[DateViewController alloc]init];
+    
+    TableViewController *t=[[TableViewController alloc]init];
+    
+    _window.rootViewController=t;
+    
+    [_window makeKeyAndVisible];
+    
     return YES;
 }
 
